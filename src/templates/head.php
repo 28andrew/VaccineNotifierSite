@@ -4,6 +4,9 @@
 <link rel="stylesheet" href="https://bootswatch.com/4/cosmo/bootstrap.min.css" crossorigin="anonymous">
 
 <?php
+
+use VaccineNotifier\Config;
+
 foreach($stylesheets as $stylesheet) {
     ?>
     <link rel="stylesheet" href="<?=$stylesheet?>">
@@ -13,11 +16,16 @@ foreach($stylesheets as $stylesheet) {
 
 <title><?=$title?></title>
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-LMLCH32620"></script>
+<?php
+if (Config::exists('google_analytics_id')) {
+?>
+<script async src="https://www.googletagmanager.com/gtag/js?id=<?=Config::get('google_analytics_id')?>"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
 
-    gtag('config', 'G-LMLCH32620');
+    gtag('config', '<?=Config::get('google_analytics_id')?>');
 </script>
+<?php
+}

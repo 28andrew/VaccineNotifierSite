@@ -18,4 +18,8 @@ class Config {
         }
         return $arr;
     }
+
+    public static function exists($path): bool {
+        return !empty(self::get($path));
+    }
 }

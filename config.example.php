@@ -33,5 +33,7 @@ $config = [
         // VAPID public & private key
         'public_key' => '',
         'private_key' => ''
-    ]
+    ],
+    // Starts with G-
+    'google_analytics_id' => ''
 ];
