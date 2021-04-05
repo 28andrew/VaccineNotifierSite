@@ -29,7 +29,6 @@ $_USER = UserDatabase::getUserFromBrowser();
                 <div class="card-body">
                     <h2 class="card-title">Purpose</h2>
                     <p class="card-text">I created this website to help those all over the US find vaccine appointments. I found <a href="https://www.vaccinespotter.org/">Vaccine Spotter</a> very helpful in finding appointments for relatives but it lacked a notification system, so my goal is to fill that gap. </p>
-                    <p class="card-text">I will open source the code for this website very soon.</p>
                 </div>
             </div>
             <br>
@@ -40,6 +39,13 @@ $_USER = UserDatabase::getUserFromBrowser();
                     <br>
                     <p class="card-text">Email: <a href="mailto:andrewtran312@gmail.com">andrewtran312@gmail.com</a></p>
                     <p class="card-text">LinkedIn: <a href="//www.linkedin.com/in/andrew-tran-mn/">andrew-tran-mn</a></p>
+                </div>
+            </div>
+            <br>
+            <div class="card">
+                <div class="card-body">
+                    <h2 class="card-title">Source Code</h2>
+                    <p class="card-text">All the code to this site is available on <a href="//github.com/28andrew/VaccineNotifierSite">Github</a>. Contributions are welcome!</p>
                 </div>
             </div>
         </div>

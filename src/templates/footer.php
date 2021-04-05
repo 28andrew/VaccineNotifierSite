@@ -11,7 +11,7 @@ foreach($scripts as $script) {
 <footer class="text-muted">
     <div class="container">
         <br>
-        <p class="float-left">Website created by <a href="/about/">Andrew Tran</a></p>
+        <p class="float-left">Website created by <a href="/about/">Andrew Tran</a><br>Code on <a href="//github.com/28andrew/VaccineNotifierSite">Github</a></p>
         <p class="float-right"><a href="//paypal.me/andrewtran28">Help with website hosting costs or buy me a coffee.</a> <br>Also consider donating to <a href="https://www.vaccinespotter.org/#donate" target="_blank">Vaccine Spotter</a> and the charities that it lists.</p>
     </div>
 </footer>
