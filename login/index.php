@@ -83,7 +83,7 @@ function verify_form(Formr $form) {
                         ?>
                         <div class="form-row">
                             <div class="form-group col-md-12">
-                                <?= $form->input_text('identifier', 'Username/Email') ?>
+                                <?= $form->input_text('identifier', 'Email') ?>
                             </div>
                             <div class="form-group col-md-12">
                                 <?= $form->input_password('password', 'Password') ?>
