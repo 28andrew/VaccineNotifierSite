@@ -115,4 +115,5 @@ fabric.properties
 # End of https://www.toptal.com/developers/gitignore/api/phpstorm,composer
 
 # Production Config
-config.php
+[c]onfig.php
+!src/Config.php
